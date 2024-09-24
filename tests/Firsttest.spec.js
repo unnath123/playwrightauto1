@@ -17,7 +17,7 @@ test("first test", async( {page})=>{
     for (let i = 0; i < 3; i++) {
         const text = await suggestionValues.nth(i).textContent(); // Accessing the i-th option
         console.log("Option " + (i + 1) + ": " + text);
+    
     }
-
     console.log("this is the text",inputcontent);
 })
