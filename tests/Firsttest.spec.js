@@ -21,4 +21,6 @@ test("first test", async( {page})=>{
     }
     console.log("this is the text",inputcontent);
     console.log("test-1")
+
+    console.log(("test-2"))
 })
